@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitae nunc</title>
+    <!-- favicon -->
+    <link rel="icon" href="./assets/image/art_img.png">
+    <!-- css-style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- aos-link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- bootstrap-link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <section class="overflow bg_img min-vh-100">
+        <div class="d-flex justify-content-center">
+            <div class="container ff_poppins">
+                <nav class="fixed-top d-flex justify-content-center">
+                    <div class="container ff_poppins d-flex justify-content-between align-items-center pt-3">
+                        <p class="fs_xl text_white fw-bold">logo</p>
+                        <input type="checkbox" id="mobileview" hidden>
+                        <label for="mobileview" class="icon_box span" onclick="responsive()">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                        <ul class="d-flex align-items-center my_nav gap-5" id="nav">
+                            <li>
+                                <a href="#mint">Minting</a>
+                            </li>
+                            <li>
+                                <a href="#roadmap">Road Map</a>
+                            </li>
+                            <li>
+                                <a href="#faqs">Faq</a>
+                            </li>
+                            <li>
+                                <a href="#team">Team</a>
+                            </li>
+                            <li>
+                                <a href="#join">Join Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class=" pt_320 ">
+                    <h1 class="text_white fs_5xl fw_normal mw_500">Vitae nunc,<span class="text_white fs_5xl fw-bold">
+                            blandit
+                            a odio</span></h1>
+                    <p class="mw_500 fs_lg fw_medium gray_prime py-3 ">Semper in egestas risus id tempus. Pellentesque
+                        dolor eros sollicitudin feugiat ut odio semper. Mattis fermentum eget ut vestibulum dolor diam
+                    </p>
+                    <div class="banner">
+                        <a href="#" class="hero_btn dark_blue butn butn__new mt-3">Get Started</a></div>
+                </div>
+            </div>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img class="border_r"
+                src="./assets/image/backtop.png" alt="back_to_top"></button>
+    </section>
+    <!-- marted -->
+    <section class="overflow" id="mint">
+        <div class="d-flex justify-content-center bg_dark_prime py-5 position-relative z-2 overflow mt_1">
+            <div class="container ff_poppins py-5">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6">
+                        <div><img class="w-100 three_hover" src="./assets/image/mint.gif" alt="hero"></div>
+                    </div>
+                    <div class="col-lg-4 pt-5">
+                        <h3 data-aos="flip-right" class="text_white fs_3xl fw_bold pb-5">Mint Your Bat</h3>
+                        <p data-aos="fade-left" class="text_white fs_2xl fw_medium">Minting: 1,5 SOL</p>
+                        <p data-aos="fade-left" class="fs_sm fw-normal gray line_thor">Before 2 SOL</p>
+                        <p data-aos="flip-up" class="text_white fs_2xl fw_medium pt-3">Whitelist: 0,88 SOL
+                        </p>
+                        <p data-aos="flip-up" class="fs_sm fw-normal gray line_thor">Before 1 SOL</p>
+                        <button class="hero_btn btn1 send fs_md fw_normal dark_blue mt-5">Coming soon</button>
+                        <div class="d-flex align-items-center gap-4
+                        pt-5">
+                            <a href="https://www.instagram.com/radialcode/"><svg class="icon_insta" width="41"
+                                    height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d_13523_1197)">
+                                        <path
+                                            d="M20.1287 10.7528C17.1663 10.7528 14.7488 13.1704 14.7488 16.1327C14.7488 19.0951 17.1663 21.5126 20.1287 21.5126C23.091 21.5126 25.5085 19.0951 25.5085 16.1327C25.5085 13.1704 23.091 10.7528 20.1287 10.7528ZM36.2642 16.1327C36.2642 13.9049 36.2844 11.6973 36.1593 9.47347C36.0342 6.89049 35.4449 4.59809 33.5561 2.70929C31.6633 0.816453 29.3749 0.231247 26.7919 0.106134C24.5641 -0.0189791 22.3565 0.00120046 20.1327 0.00120046C17.9049 0.00120046 15.6972 -0.0189791 13.4735 0.106134C10.8905 0.231247 8.59809 0.820489 6.70929 2.70929C4.81645 4.60213 4.23125 6.89049 4.10613 9.47347C3.98102 11.7013 4.0012 13.9089 4.0012 16.1327C4.0012 18.3565 3.98102 20.5682 4.10613 22.792C4.23125 25.3749 4.82049 27.6673 6.70929 29.5561C8.60213 31.449 10.8905 32.0342 13.4735 32.1593C15.7013 32.2844 17.9089 32.2642 20.1327 32.2642C22.3605 32.2642 24.5682 32.2844 26.7919 32.1593C29.3749 32.0342 31.6673 31.4449 33.5561 29.5561C35.449 27.6633 36.0342 25.3749 36.1593 22.792C36.2884 20.5682 36.2642 18.3605 36.2642 16.1327ZM20.1287 24.4103C15.5479 24.4103 11.851 20.7135 11.851 16.1327C11.851 11.552 15.5479 7.85507 20.1287 7.85507C24.7094 7.85507 28.4063 11.552 28.4063 16.1327C28.4063 20.7135 24.7094 24.4103 20.1287 24.4103ZM28.7453 9.44925C27.6758 9.44925 26.8121 8.58557 26.8121 7.51605C26.8121 6.44654 27.6758 5.58286 28.7453 5.58286C29.8148 5.58286 30.6785 6.44654 30.6785 7.51605C30.6788 7.77001 30.6291 8.02154 30.532 8.25623C30.435 8.49092 30.2926 8.70416 30.113 8.88374C29.9334 9.06332 29.7202 9.20571 29.4855 9.30274C29.2508 9.39978 28.9993 9.44957 28.7453 9.44925Z"
+                                            fill="white" />
+                                    </g>
+                                </svg>
+                            </a>
+                            <a href="https://twitter.com/RadialCode/status/1491705531911737344"><svg class="twitter"
+                                    width="35" height="29" viewBox="0 0 35 29" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M34.6 3.80033C33.3373 4.35982 31.981 4.73785 30.555 4.90872C32.0263 4.02835 33.1271 2.64275 33.6519 1.01046C32.2695 1.83153 30.7567 2.40947 29.179 2.71916C28.1181 1.58637 26.7128 0.835544 25.1814 0.583242C23.65 0.330941 22.0782 0.591283 20.7099 1.32385C19.3417 2.05642 18.2535 3.22022 17.6145 4.63458C16.9754 6.04893 16.8212 7.6347 17.1757 9.1457C14.3748 9.00506 11.6347 8.27705 9.13337 7.00892C6.63201 5.74078 4.42524 3.96086 2.6563 1.78467C2.05145 2.82803 1.70366 4.03773 1.70366 5.32607C1.70298 6.48586 1.98859 7.62789 2.53514 8.65083C3.08169 9.67376 3.87229 10.546 4.83678 11.1901C3.71823 11.1545 2.62435 10.8523 1.6462 10.3085V10.3992C1.64608 12.0259 2.20876 13.6025 3.23874 14.8615C4.26873 16.1206 5.70258 16.9845 7.29701 17.3066C6.25937 17.5875 5.17147 17.6288 4.1155 17.4276C4.56535 18.8273 5.44163 20.0512 6.62165 20.9281C7.80167 21.805 9.22636 22.2909 10.6963 22.3178C8.20101 24.2767 5.11938 25.3392 1.94711 25.3345C1.38517 25.3347 0.823715 25.3019 0.265625 25.2362C3.48566 27.3066 7.23402 28.4054 11.0622 28.4011C24.0211 28.4011 31.1054 17.668 31.1054 8.35939C31.1054 8.05697 31.0979 7.75152 31.0843 7.44909C32.4623 6.45256 33.6517 5.21855 34.5969 3.80487L34.6 3.80033Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                            <a href="https://discord.com/channels/984345847628181504/999268522427437086"><svg
+                                    class="discord" width="34" height="25" viewBox="0 0 34 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M28.5024 2.1348C26.4012 1.1872 24.1489 0.486792 21.7936 0.0885242C21.7727 0.0844975 21.7509 0.0870925 21.7315 0.0959503C21.7121 0.104808 21.6959 0.119491 21.6851 0.137964C21.3967 0.644726 21.0754 1.3053 20.8502 1.82717C18.3522 1.45395 15.8126 1.45395 13.3146 1.82717C13.0638 1.2488 12.7809 0.684861 12.4673 0.137964C12.4567 0.119263 12.4406 0.104249 12.4212 0.0949242C12.4018 0.0855997 12.38 0.0824088 12.3588 0.0857774C10.0049 0.484046 7.75262 1.18445 5.65004 2.13343C5.63195 2.14101 5.61661 2.15395 5.60609 2.17051C1.33226 8.45353 0.160801 14.5814 0.73623 20.6323C0.737831 20.6471 0.742431 20.6615 0.74975 20.6744C0.757069 20.6874 0.766954 20.6988 0.778803 20.7078C3.27333 22.524 6.05563 23.9075 9.00922 24.8004C9.02981 24.8067 9.05184 24.8067 9.07241 24.8003C9.09299 24.794 9.11117 24.7815 9.12458 24.7647C9.75907 23.9132 10.3249 23.0137 10.8083 22.0688C10.8371 22.0139 10.8097 21.948 10.752 21.926C9.86482 21.5919 9.00522 21.1887 8.1811 20.7202C8.16629 20.7117 8.15381 20.6997 8.14478 20.6853C8.13576 20.6708 8.13046 20.6543 8.12937 20.6373C8.12828 20.6203 8.13143 20.6033 8.13855 20.5878C8.14566 20.5723 8.1565 20.5588 8.17011 20.5485C8.34315 20.4208 8.51619 20.2876 8.68099 20.1544C8.69583 20.1424 8.7137 20.1348 8.73261 20.1323C8.75152 20.1299 8.77074 20.1328 8.78812 20.1406C14.1812 22.5632 20.022 22.5632 25.352 20.1406C25.3694 20.1323 25.3888 20.1291 25.408 20.1313C25.4272 20.1334 25.4453 20.141 25.4604 20.153C25.6252 20.2876 25.7969 20.4208 25.9713 20.5485C25.9851 20.5586 25.9961 20.5719 26.0034 20.5873C26.0108 20.6026 26.0142 20.6196 26.0134 20.6366C26.0126 20.6536 26.0075 20.6701 25.9988 20.6847C25.99 20.6993 25.9777 20.7115 25.9631 20.7202C25.1418 21.1926 24.2876 21.5923 23.3908 21.9246C23.3771 21.9296 23.3645 21.9375 23.354 21.9477C23.3435 21.958 23.3354 21.9703 23.33 21.984C23.3247 21.9976 23.3223 22.0122 23.3231 22.0269C23.3239 22.0415 23.3278 22.0558 23.3345 22.0688C23.8289 23.0123 24.3947 23.9105 25.0169 24.7633C25.0298 24.7808 25.0478 24.7939 25.0685 24.8008C25.0891 24.8076 25.1114 24.808 25.1322 24.8018C28.0909 23.9113 30.8777 22.5272 33.375 20.7078C33.3872 20.6993 33.3974 20.6883 33.405 20.6755C33.4126 20.6627 33.4173 20.6484 33.4189 20.6337C34.1056 13.6379 32.2681 7.55949 28.545 2.17325C28.5358 2.15575 28.5207 2.1421 28.5024 2.1348ZM11.6144 16.9476C9.99116 16.9476 8.65215 15.4795 8.65215 13.6791C8.65215 11.8773 9.96507 10.4105 11.6144 10.4105C13.2762 10.4105 14.6028 11.8896 14.5767 13.6791C14.5767 15.4809 13.2638 16.9476 11.6144 16.9476ZM22.5668 16.9476C20.9422 16.9476 19.6045 15.4795 19.6045 13.6791C19.6045 11.8773 20.9161 10.4105 22.5668 10.4105C24.2286 10.4105 25.5552 11.8896 25.5291 13.6791C25.5291 15.4809 24.2299 16.9476 22.5668 16.9476Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mint_left"><img src="./assets/image/mint_left.png" alt="mint"></div>
+            <div class="mint_e"> <img src="./assets/image/mint_ellipse.png" alt="mint"></div>
+        </div>
+    </section>
+    <!-- card-sec -->
+    <section class="bg_dark_prime overflow mt_1">
+        <div class="d-flex justify-content-center ff_poppins">
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card_art card_hover">
+                            <img src="./assets/image/art_img.png" alt="art">
+                            <h2 class="text_white fs_2xl fw-medium pt-5 phara">ART COLLECTION</h2>
+                            <p class="fs_sm fw-normal gray pt-3 phara pb-5">Complete the art collection in full with +70
+                                unique traits, and publish our rarity chart on our webpage.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6  col-lg-4 pt-5 pt-sm-0">
+                        <div class="card_art card_hover">
+                            <img src="./assets/image/bullies.png" alt="art">
+                            <h2 class="text_white fs_2xl fw-medium phara pt-5">SPECIAL BULLIES</h2>
+                            <p class="fs_sm fw-normal gray pt-3 phara pb-4">20 Buddybullies {out of 10k} will have a
+                                very special and ersonalized resembling of famous people who are into NFTs {those will
+                                be available after the minting}.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6  col-lg-4 pt-5 pt-lg-0">
+                        <div class="card_art card_hover">
+                            <img src="./assets/image/breeding.png" alt="art">
+                            <h2 class="text_white fs_2xl fw-medium phara pt-5">BREEDING</h2>
+                            <p class="fs_sm fw-normal gray pt-3 phare pb-4">Our BuddyBullies will not come alone, as we
+                                will announce the breeding function after the minting and you will be able to get a
+                                PuppyBully { for free}.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6  col-lg-4 pt-5">
+                        <div class="card_art card_hover">
+                            <img src="./assets/image/digtalmarkect.png" alt="art">
+                            <h2 class="text_white fs_2xl fw-medium phara pt-5">DIGITALMARKETS</h2>
+                            <p class="fs_sm fw-normal gray pt-3 phara pb-5">Communicate with all the digital markets
+                                available in the Solana NFT world for getting our collection successfully listed.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6  col-lg-4 pt-5">
+                        <div class="card_art card_hover">
+                            <img src="./assets/image/merch.png" alt="art">
+                            <h2 class="text_white fs_2xl fw-medium phara pt-5">MERCH</h2>
+                            <p class="fs_sm fw-normal gray pt-3 phara pb-5">The team is working on the future merch thet
+                                will be available for the community members directly on our webpage.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6  col-lg-4 py-5">
+                        <div class="card_art card_hover">
+                            <img src="./assets/image/charity.png" alt="art">
+                            <h2 class="text_white fs_2xl fw-medium phara pt-5">CHARITY</h2>
+                            <p class="fs_sm fw-normal gray pt-3">We will be giving 30% of the royalties to charity
+                                permanently and we will keep spending on marketing, promotions and partnership.50% of
+                                the riyalties will go back to the community as rewards.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- roadmap -->
+    <section class="overflow" id="roadmap">
+        <div class="d-flex justify-content-center  bg_dark_prime mt_1 position-relative z_2 overflow">
+            <div class="container ff_poppins py-5">
+                <h3 data-aos="flip-right" class="py-5 fs_3xl fw_bold text_white text-center">Roadmap</h3>
+                <div class="main-timeline pt-5">
+                    <div class="timeline right">
+                        <div data-aos="fade-left" class="card">
+                            <div class="card-body p-4">
+                                <h3 class="text_white fs_lg fw-bold pb-4 heading_h">Q-4, 2021</h3>
+                                <p class="mb-0 gray_light fs_sm fw-normal mw_385 f_phara ">Blandit sed penatibus elit
+                                    tortor fermentum velit donec. Id eleifend volutpat dolor netus auctor at. Volutpat
+                                    sed auctor non in commodo, felis viverra risus tristique.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline left">
+                        <div data-aos="fade-right" class="card">
+                            <div class="card-body p-4">
+                                <h3 class="text_white fs_lg fw-bold text-sm-end pb-4 heading_h">Q-1, 2022</h3>
+                                <p class="mb-0 gray_light fs_sm fw-normal mw_385 text-sm-end ms-auto f_phara">Blandit
+                                    sed penatibus elit tortor fermentum velit donec. Id eleifend volutpat dolor netus
+                                    auctor at. Volutpat sed auctor non in commodo, felis viverra risus tristique.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline right">
+                        <div data-aos="fade-left" class="card">
+                            <div class="card-body p-4">
+                                <h3 class="text_white fs_lg fw-bold pb-4 heading_h">Q-2, 2022</h3>
+                                <p class="mb-0 gray_light fs_sm fw-normal mw_385 f_phara">Blandit sed penatibus elit
+                                    tortor fermentum velit donec. Id eleifend volutpat dolor netus auctor at. Volutpat
+                                    sed auctor non in commodo, felis viverra risus tristique.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="roadmap_e"><img src="./assets/image/roadmap_ellpise.png" alt=""></div>
+        </div>
+    </section>
+    <div class=" overflow py-5 bg_dark_prime mt_1">
+        <p class="fs_2xl text_white fw-medium mw-500 text-center mw_786 mx-auto py-5 ff_poppins phara">And this just the
+            begining , the team is working on more suprises for our community. Buddybullies stronger together !!</p>
+    </div>
+    <!-- according -->
+    <section class="overflow" id="faqs">
+        <div class="d-flex justify-content-center bg_dark_prime mt_1 position-relative z_2">
+            <div class="container ff_poppins">
+                <h2 data-aos="flip-right" class="fs_3xl fw_bold text_white text-center py-5">FAQs</h2>
+                <div class="accordion accordion-flush mw_830 mx-auto" id="accordionFlushExample">
+                    <div data-aos="fade-down-left" class="accordion-item w-100 my-4">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fs_lg fw-medium" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseone" aria-expanded="false"
+                                aria-controls="flush-collapseone ">
+                                What’s the blockchain the buddybullies call home ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseone" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body fs_sm gray">Hac varius turpis sit pulvinar lorem magna velit sit.
+                                Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis enim egestas sed in
+                                accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus vitae non, integer.
+                                Non.
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-down-left" class="accordion-item w-100 mt-4">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed  fs_lg fw-medium" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                What’s the blockchain the buddybullies call home ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body fs_sm fw-medium gray">Hac varius turpis sit pulvinar lorem magna
+                                velit sit. Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis enim egestas
+                                sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus vitae non,
+                                integer.
+                                Non.
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="flip-left" class="accordion-item w-100 mt-4">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed  fs_lg fw-medium" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                What’s the blockchain the buddybullies call home ?
+                            </button>
+                        </h2>
+                        <div data-aos="flip-left" id="flush-collapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body fs_sm fw-medium gray">Hac varius turpis sit pulvinar lorem magna
+                                velit sit. Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis enim egestas
+                                sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus vitae non,
+                                integer.
+                                Non.
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="flip-left" class="accordion-item w-100 my-4">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fs_lg fw-medium" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false"
+                                aria-controls="flush-collapsefour">
+                                What’s the blockchain the buddybullies call home ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapsefour" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body fs_sm fw-medium gray">Hac varius turpis sit pulvinar lorem magna
+                                velit sit. Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis enim egestas
+                                sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus vitae non,
+                                integer.
+                                Non.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div> <img class="accordion_e" src="./assets/image/accoring_ellipse.png" alt="img"></div>
+        </div>
+    </section>
+    <!-- our team -->
+    <section class="overflow" id="team">
+        <div class="d-flex justify-content-center bg_dark_prime mt_1 pb-5 ">
+            <div class="container ff_poppins py-5">
+                <h2 data-aos="flip-left" class="fs_3xl text_white fw_bold text-center py-5">Our Team</h2>
+                <div class="row justify-content-center pb-5">
+                    <div data-aos="fade-right" class="col-lg-4 col-md-6 three_hover">
+                        <div class="text-center pb-2"><img class="w-100" src="./assets/image/bullister.png"
+                                alt="bulliester">
+                        </div>
+                        <h3 class="fs_2xl text_white fw-medium text-center pt-4">Prime Bullister </h3>
+                        <p class="fs_md text_white fw-normal text-center phara">Pruduct Designer</p>
+                    </div>
+                    <div data-aos="fade-down" class="col-lg-4 col-md-6 three_hover pt-5 pt-md-0">
+                        <div class="text-center pb-2"><img class="w-100" src="./assets/image/bullie.png" alt="bullie">
+                        </div>
+                        <h3 class="fs_2xl text_white fw-medium text-center pt-4">Solvador Bulli </h3>
+                        <p class="fs_md  fw-normal text-center text_white phara">Artist</p>
+                    </div>
+                    <div data-aos="fade-left" class="col-lg-4 col-md-6 three_hover pt-5 pt-lg-0 ">
+                        <div class="text-center pb-2"><img class="w-100" src="./assets/image/meta.png" alt="meta"></div>
+                        <h3 class="fs_2xl text_white fw-medium text-center pt-4">Meta Bully </h3>
+                        <p class="fs_md  fw-normal text-center text_white phara">Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg_dark_prime bg_image mt_1 overflow " id="join">
+        <h4 data-aos="flip-left" class="fs_3xl text_white fw-medium text-center pt-5 ff_poppins">JOIN US</h4>
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="container ff_poppins ">
+                <div class="row align-items-center justify-content-between py-5">
+                    <div class="col-lg-8">
+                        <a href="#" class="fs_2xl text_white fw-medium pb-3">logo</a>
+                        <p class="gray_light fw-normal fs_sm py-3 mw_385 f_phara ">Aenean arcu sed rhoncus sapien
+                            euismod cursus morbi lacus, blandit. Placerat tortor duis fames cras pellentesque dui
+                            adipiscing neque gravida. Sociis neque consectetur id quis pharetra.
+                        </p>
+                        <a href="#" class="fs_sm text_white">Email@gmail.com</a>
+                    </div>
+                    <div class="col-lg-4 pt-5 pt-lg-0">
+                        <div class="row ">
+                            <div class="col-5">
+                                <ul>
+                                    <li class="text_white fs_sm fw-medium ">Resources</li>
+                                    <li>
+                                        <a href="#roadmap">Roadmap</a>
+                                    </li>
+                                    <li>
+                                        <a href="#faqs">FAQs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Mint your Bully</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-5">
+                                <p class=" text_white fs_sm fw-medium">Community</p>
+                                <div class="d-flex align-items-center gap-2 pt-3">
+                                    <a href="https://www.instagram.com/radialcode/"><svg class="icon_insta" width="18"
+                                            height="11" viewBox="0 0 18 11" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M8.77751 3.66589C7.16534 3.66589 5.84969 4.49007 5.84969 5.5C5.84969 6.50993 7.16534 7.33411 8.77751 7.33411C10.3897 7.33411 11.7053 6.50993 11.7053 5.5C11.7053 4.49007 10.3897 3.66589 8.77751 3.66589ZM17.5588 5.5C17.5588 4.74049 17.5697 3.98785 17.5016 3.22972C17.4336 2.34912 17.1129 1.56759 16.085 0.923658C15.0548 0.278347 13.8095 0.0788372 12.4038 0.0361834C11.1914 -0.00647041 9.98993 0.000409262 8.7797 0.000409262C7.56729 0.000409262 6.36585 -0.00647041 5.15563 0.0361834C3.74993 0.0788372 2.50236 0.279723 1.47444 0.923658C0.444328 1.56897 0.125849 2.34912 0.0577599 3.22972C-0.0103288 3.98923 0.000653309 4.74186 0.000653309 5.5C0.000653309 6.25814 -0.0103288 7.01215 0.0577599 7.77028C0.125849 8.65088 0.446525 9.43241 1.47444 10.0763C2.50456 10.7217 3.74993 10.9212 5.15563 10.9638C6.36805 11.0065 7.56948 10.9996 8.7797 10.9996C9.99212 10.9996 11.1936 11.0065 12.4038 10.9638C13.8095 10.9212 15.057 10.7203 16.085 10.0763C17.1151 9.43103 17.4336 8.65088 17.5016 7.77028C17.5719 7.01215 17.5588 6.25951 17.5588 5.5ZM8.77751 8.32203C6.28458 8.32203 4.27267 7.06168 4.27267 5.5C4.27267 3.93832 6.28458 2.67797 8.77751 2.67797C11.2704 2.67797 13.2823 3.93832 13.2823 5.5C13.2823 7.06168 11.2704 8.32203 8.77751 8.32203ZM13.4668 3.22146C12.8848 3.22146 12.4148 2.92701 12.4148 2.56239C12.4148 2.19777 12.8848 1.90332 13.4668 1.90332C14.0489 1.90332 14.5189 2.19777 14.5189 2.56239C14.5191 2.64897 14.492 2.73472 14.4392 2.81473C14.3864 2.89475 14.3089 2.96744 14.2112 3.02867C14.1134 3.08989 13.9974 3.13843 13.8697 3.17151C13.7419 3.2046 13.6051 3.22157 13.4668 3.22146Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                    <a href="https://twitter.com/RadialCode/status/1491705531911737344"><svg
+                                            class="twitter" width="20" height="11" viewBox="0 0 20 11" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M19.0652 1.94465C18.3781 2.13539 17.6399 2.26427 16.8639 2.32253C17.6646 2.02239 18.2637 1.55001 18.5493 0.993523C17.797 1.27344 16.9736 1.47048 16.115 1.57606C15.5377 1.18987 14.7729 0.933891 13.9395 0.847876C13.1061 0.761861 12.2507 0.850617 11.506 1.10037C10.7614 1.35011 10.1692 1.74688 9.82144 2.22907C9.47365 2.71125 9.38972 3.25188 9.58266 3.76701C8.05835 3.71906 6.56716 3.47087 5.20587 3.03853C3.84458 2.6062 2.64362 1.99938 1.68093 1.25747C1.35176 1.61318 1.16249 2.02559 1.16249 2.46481C1.16212 2.86021 1.31755 3.24955 1.61499 3.5983C1.91244 3.94704 2.34269 4.2444 2.86759 4.46399C2.25885 4.45185 1.66354 4.34881 1.13121 4.16344V4.19437C1.13115 4.74894 1.43737 5.28643 1.99791 5.71566C2.55844 6.14489 3.33877 6.43941 4.20649 6.54926C3.64178 6.645 3.04973 6.6591 2.47505 6.5905C2.71987 7.06767 3.19675 7.48493 3.83894 7.78388C4.48113 8.08283 5.25647 8.2485 6.05643 8.25768C4.69846 8.92549 3.02138 9.28773 1.29498 9.28614C0.989161 9.28619 0.683605 9.275 0.379883 9.25263C2.13228 9.95846 4.17221 10.3331 6.25557 10.3316C13.308 10.3316 17.1635 6.67247 17.1635 3.49894C17.1635 3.39584 17.1593 3.2917 17.1519 3.1886C17.9019 2.84886 18.5492 2.42815 19.0636 1.9462L19.0652 1.94465Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                    <a href="https://discord.com/channels/984345847628181504/999268522427437086"><svg
+                                            class="discord" width="18" height="9" viewBox="0 0 18 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M15.2467 1.05887C14.1032 0.735806 12.8775 0.497023 11.5957 0.361245C11.5843 0.359872 11.5725 0.360756 11.5619 0.363776C11.5513 0.366796 11.5425 0.371802 11.5366 0.3781C11.3797 0.550866 11.2048 0.776071 11.0822 0.953988C9.72278 0.826748 8.34071 0.826748 6.98127 0.953988C6.84474 0.75681 6.69079 0.564549 6.52012 0.3781C6.51434 0.371724 6.50559 0.366605 6.49504 0.363426C6.48449 0.360248 6.47264 0.35916 6.46108 0.360308C5.18005 0.496087 3.95432 0.73487 2.81006 1.0584C2.80021 1.06098 2.79187 1.06539 2.78614 1.07104C0.460244 3.21306 -0.177284 5.30218 0.135875 7.36508C0.136746 7.37013 0.13925 7.37502 0.143233 7.37944C0.147216 7.38387 0.152596 7.38774 0.159044 7.39083C1.51661 8.00999 3.03079 8.48165 4.63818 8.78607C4.64939 8.78823 4.66137 8.78822 4.67257 8.78605C4.68377 8.78388 4.69367 8.77964 4.70096 8.77389C5.04626 8.48361 5.35419 8.17694 5.61727 7.85481C5.63297 7.83609 5.61802 7.81361 5.58663 7.80612C5.10381 7.69222 4.63601 7.55477 4.1875 7.39504C4.17945 7.39216 4.17265 7.38807 4.16774 7.38314C4.16283 7.37821 4.15995 7.37259 4.15935 7.36679C4.15876 7.36099 4.16048 7.35518 4.16435 7.3499C4.16822 7.34462 4.17412 7.34002 4.18153 7.33651C4.2757 7.29297 4.36987 7.24756 4.45956 7.20214C4.46763 7.19806 4.47735 7.19546 4.48765 7.19463C4.49794 7.1938 4.5084 7.19478 4.51785 7.19746C7.45287 8.02337 10.6315 8.02337 13.5322 7.19746C13.5417 7.19462 13.5522 7.19352 13.5627 7.19426C13.5731 7.19501 13.583 7.19757 13.5912 7.20167C13.6809 7.24756 13.7743 7.29297 13.8693 7.33651C13.8767 7.33994 13.8827 7.34448 13.8867 7.34972C13.8907 7.35496 13.8926 7.36073 13.8921 7.36653C13.8917 7.37233 13.889 7.37797 13.8842 7.38295C13.8794 7.38792 13.8727 7.39208 13.8648 7.39504C13.4178 7.5561 12.953 7.69235 12.4649 7.80565C12.4574 7.80736 12.4506 7.81004 12.4449 7.81353C12.4392 7.81702 12.4347 7.82124 12.4318 7.82589C12.4289 7.83054 12.4276 7.83553 12.4281 7.84052C12.4285 7.8455 12.4306 7.85038 12.4343 7.85481C12.7033 8.17647 13.0113 8.48267 13.3498 8.77343C13.3569 8.77939 13.3667 8.78385 13.3779 8.7862C13.3891 8.78855 13.4013 8.78866 13.4126 8.78654C15.0228 8.48297 16.5394 8.01109 17.8985 7.39083C17.9051 7.38792 17.9107 7.38416 17.9148 7.3798C17.9189 7.37544 17.9215 7.37058 17.9224 7.36554C18.2961 4.98052 17.2961 2.90826 15.2699 1.07197C15.2649 1.06601 15.2567 1.06136 15.2467 1.05887ZM6.05599 6.10889C5.17257 6.10889 4.44386 5.60838 4.44386 4.99457C4.44386 4.38029 5.15837 3.88025 6.05599 3.88025C6.96034 3.88025 7.68233 4.3845 7.66812 4.99457C7.66812 5.60885 6.95361 6.10889 6.05599 6.10889ZM12.0165 6.10889C11.1323 6.10889 10.4043 5.60838 10.4043 4.99457C10.4043 4.38029 11.1181 3.88025 12.0165 3.88025C12.9208 3.88025 13.6428 4.3845 13.6286 4.99457C13.6286 5.60885 12.9216 6.10889 12.0165 6.10889Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- bootstrap-link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+    <!-- js -->
+    <script src="./assets/js/app.js"></script>
+    <!-- js-aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000,
+        })
+    </script>
+</body>
+
+</html>
