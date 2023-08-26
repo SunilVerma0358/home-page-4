@@ -269,7 +269,7 @@ a:hover {
     fill: #009DFF;
     background-color: #009DFF;
     border: 5px solid white;
-    box-shadow: #009DFF;
+    box-shadow: 0 0 4px 17px #001931;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
